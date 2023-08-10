@@ -9,7 +9,7 @@ with tab1:
     st.title("Test") 
     
     with st.form("form1"):
-        In = st.text_input(label="ID", max_chars=10)
+        In = st.text_input(label="In", max_chars=10)
         submit = st.form_submit_button("Submit")
 
 
